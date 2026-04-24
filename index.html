@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowBio : CV Maker - Gizlilik Politikasi</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5a657a;
+      --primary: #0f62fe;
+      --border: #d8e0ee;
+      --shadow: 0 18px 50px rgba(18, 36, 69, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(15, 98, 254, 0.10), transparent 28%),
+        linear-gradient(180deg, #eef4ff 0%, var(--bg) 42%, #eef2f8 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 48px auto;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 40px 32px 28px;
+      background: linear-gradient(135deg, #0f62fe 0%, #2b7fff 100%);
+      color: #ffffff;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 720px;
+      color: rgba(255, 255, 255, 0.92);
+    }
+
+    .content {
+      padding: 32px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.16);
+      color: #ffffff;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      color: #0f1d3a;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 12px 0;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    .note {
+      margin-top: 24px;
+      padding: 16px 18px;
+      background: #f3f7ff;
+      border: 1px solid #cfe0ff;
+      border-radius: 16px;
+      color: #30415f;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    code {
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: #eef3ff;
+      color: #22407d;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        width: min(100% - 20px, 920px);
+        margin: 20px auto;
+      }
+
+      .hero,
+      .content {
+        padding: 24px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <header class="hero">
+        <span class="badge">Son guncelleme: 24 Nisan 2026</span>
+        <h1>Gizlilik Politikasi</h1>
+        <p>
+          Bu Gizlilik Politikasi, <strong>FlowBio : CV Maker</strong> uygulamasini kullanan
+          kullanicilarin bilgilerinin nasil toplandigini, kullanildigini, saklandigini ve korundugunu aciklar.
+        </p>
+      </header>
+
+      <div class="content">
+        <h2>1. Toplanan Bilgiler</h2>
+        <p>Uygulama, sundugu hizmetleri yerine getirebilmek icin asagidaki bilgi turlerini toplayabilir:</p>
+        <ul>
+          <li>Ad, soyad, e-posta adresi, telefon numarasi ve adres gibi kimlik ve iletisim bilgileri</li>
+          <li>CV olusturma surecinde girilen egitim, is deneyimi, beceri, yabanci dil, referans, proje, sertifika ve seminer bilgileri</li>
+          <li>Profil fotografi veya kullanici tarafindan yuklenen diger gorseller</li>
+          <li>Hesap olusturma ve giris islemleri icin kullanilan kimlik dogrulama bilgileri</li>
+          <li>Cihaz bilgileri, uygulama kullanim verileri, hata kayitlari ve bildirim token bilgileri</li>
+        </ul>
+
+        <h2>2. Bilgileri Nasil Kullaniyoruz</h2>
+        <p>Toplanan veriler asagidaki amaclarla kullanilabilir:</p>
+        <ul>
+          <li>CV olusturma, duzenleme, saklama ve disa aktarma hizmetlerini sunmak</li>
+          <li>Kullanici hesabini yonetmek ve giris islemlerini dogrulamak</li>
+          <li>Profil fotografi ve benzeri dosyalari yuklemek ve gostermek</li>
+          <li>Yapay zeka destekli CV analizi ve benzeri ozellikleri saglamak</li>
+          <li>Uygulama performansini iyilestirmek, hatalari tespit etmek ve teknik sorunlari gidermek</li>
+          <li>Anlik bildirimler gondermek</li>
+        </ul>
+
+        <h2>3. Kullanilan Ucuncu Taraf Hizmetler</h2>
+        <p>Uygulama, bazi islemler icin ucuncu taraf servislerden yararlanabilir:</p>
+        <ul>
+          <li><strong>Firebase Analytics</strong>: uygulama kullanimina dair toplu analiz verileri icin</li>
+          <li><strong>Firebase Crashlytics</strong>: hata ve cokme kayitlarini izlemek icin</li>
+          <li><strong>Firebase Cloud Messaging</strong>: bildirim gonderimi icin</li>
+          <li><strong>Supabase</strong>: kimlik dogrulama, veri saklama ve dosya yukleme islemleri icin</li>
+        </ul>
+        <p>
+          Bu servisler kendi gizlilik kosullarina tabi olabilir. Uygulamayi kullanarak, ilgili servislerin veri
+          isleme sureclerinin de devreye girebilecegini kabul etmis olursunuz.
+        </p>
+
+        <h2>4. Izinler</h2>
+        <p>Uygulama asagidaki cihaz izinlerini isteyebilir:</p>
+        <ul>
+          <li><strong>Kamera izni</strong>: profil fotografi cekebilmeniz icin</li>
+          <li><strong>Galeri / medya erisimi</strong>: cihazinizdan gorsel secip yukleyebilmeniz icin</li>
+          <li><strong>Bildirim izni</strong>: uygulama bildirimlerini alabilmeniz icin</li>
+          <li><strong>Internet ve ag durumu erisimi</strong>: uygulama ozelliklerinin calisabilmesi icin</li>
+        </ul>
+        <p>Bu izinler, yalnizca ilgili ozelliklerin calismasi amaciyla kullanilir.</p>
+
+        <h2>5. Veri Paylasimi</h2>
+        <p>
+          Kisisel verileriniz, yasal zorunluluklar haricinde, izniniz olmadan reklam amaciyla ucuncu kisilere satilmaz.
+          Verileriniz; hizmetin saglanmasi, teknik altyapi ve guvenlik surecleri kapsaminda hizmet saglayicilarla paylasilabilir.
+        </p>
+
+        <h2>6. Veri Saklama ve Guvenlik</h2>
+        <p>
+          Kisisel verilerinizin korunmasi icin makul idari, teknik ve organizasyonel tedbirler uygulanir. Buna ragmen,
+          internet uzerinden yapilan veri iletiminin veya elektronik depolamanin yuzde yuz guvenli oldugu garanti edilemez.
+        </p>
+        <p>
+          Verileriniz, hizmetin saglanmasi icin gerekli oldugu sure boyunca veya yasal yukumluluklerin gerektirdigi surece saklanabilir.
+        </p>
+
+        <h2>7. Cocuklarin Gizliligi</h2>
+        <p>
+          Uygulama, 13 yas alti cocuklara yonelik olarak tasarlanmamistir. 13 yas altindaki cocuklardan bilerek kisisel veri toplanmaz.
+        </p>
+
+        <h2>8. Haklariniz</h2>
+        <p>Gecerli mevzuata tabi olarak su haklara sahip olabilirsiniz:</p>
+        <ul>
+          <li>Hakkınızda hangi verilerin islendiginin ogrenilmesini talep etme</li>
+          <li>Eksik veya yanlis verilerin duzeltilmesini isteme</li>
+          <li>Belirli durumlarda verilerin silinmesini veya islenmesinin sinirlandirilmasini talep etme</li>
+          <li>Bildirim tercihlerinizi ve uygulama izinlerini cihaz ayarlarinizdan yonetme</li>
+        </ul>
+
+        <h2>9. Politika Degisiklikleri</h2>
+        <p>
+          Bu Gizlilik Politikasi zaman zaman guncellenebilir. Onemli degisiklikler yapildiginda, guncel metin bu sayfa uzerinden yayimlanir.
+        </p>
+
+        <h2>10. Iletisim</h2>
+        <p>
+          Gizlilik politikasi ile ilgili sorulariniz icin asagidaki iletisim bilgilerini kullanabilirsiniz:
+        </p>
+        <ul>
+          <li>Gelistirici / Sirket: <code>[Buraya adini veya sirket unvanini yaz]</code></li>
+          <li>E-posta: <code>[Buraya iletisim e-posta adresini yaz]</code></li>
+          <li>Adres: <code>[Istersen buraya sirket veya gelistirici adresini yaz]</code></li>
+        </ul>
+
+        <div class="note">
+          Not: Bu metin, projedeki mevcut teknik yapiya gore hazirlanmistir. Uygulamada reklam, odeme, abonelik,
+          KVKK/GDPR ozel surecleri veya farkli ucuncu taraf servisler kullaniliyorsa, politika bu maddelere gore
+          yeniden gozden gecirilmelidir.
+        </div>
+
+        <div class="footer">
+          <strong>Dosya:</strong> <code>privacy-policy.html</code><br />
+          Bu sayfayi bir web sitesinde yayinlayabilir veya Google Play Console gibi platformlarda gizlilik politikasi linki olarak kullanabilirsin.
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
